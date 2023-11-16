@@ -35,13 +35,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Install Node
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
         with:
-          node-version: "14.x"
-
-      - name: deploy
-        run: echo "this script will deploy the app"
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
