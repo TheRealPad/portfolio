@@ -8,7 +8,10 @@ function Me() {
   return (
     <div className={styles.me}>
       <h1>ME</h1>
-      <h2>Me présente, ce que j'aime en informatiquen plus sur mon parcours</h2>
+      <h2>timeline école/travail/stage</h2>
+      <h2>
+        Me présente, photo ce que j'aime en informatiquen plus sur mon parcours
+      </h2>
       <button onClick={() => navigate("/")}>Home</button>
     </div>
   );

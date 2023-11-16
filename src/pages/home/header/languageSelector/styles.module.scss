@@ -1,0 +1,20 @@
+.languageSelector {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  cursor: default;
+}
