@@ -19699,7 +19699,7 @@ var require_react_dom_development = __commonJS({
           if ((workInProgress2.mode & ConcurrentMode) === NoMode) {
             {
               error(
-                "Cannot hydrate Suspense in legacy mode. Switch from ReactDOM.hydrate(element, container) to ReactDOMClient.hydrateRoot(container, <App />).render(element) or remove the Suspense components from the server rendered components."
+                "Cannot hydrate Suspense in legacy mode. Switch from ReactDOM.hydrate(element, container) to ReactDOMClient.hydrateRoot(container, <Home />).render(element) or remove the Suspense components from the server rendered components."
               );
             }
             workInProgress2.lanes = laneToLanes(SyncLane);
@@ -27180,7 +27180,7 @@ var require_react_dom_development = __commonJS({
             {
               if (options2.hydrate) {
                 warn(
-                  "hydrate through createRoot is deprecated. Use ReactDOMClient.hydrateRoot(container, <App />) instead."
+                  "hydrate through createRoot is deprecated. Use ReactDOMClient.hydrateRoot(container, <Home />) instead."
                 );
               } else {
                 if (
@@ -27189,7 +27189,7 @@ var require_react_dom_development = __commonJS({
                   options2.$$typeof === REACT_ELEMENT_TYPE
                 ) {
                   error(
-                    "You passed a JSX element to createRoot. You probably meant to call root.render instead. Example usage:\n\n  let root = createRoot(domContainer);\n  root.render(<App />);"
+                    "You passed a JSX element to createRoot. You probably meant to call root.render instead. Example usage:\n\n  let root = createRoot(domContainer);\n  root.render(<Home />);"
                   );
                 }
               }
@@ -27244,7 +27244,7 @@ var require_react_dom_development = __commonJS({
           {
             if (initialChildren === void 0) {
               error(
-                "Must provide initial children as second argument to hydrateRoot. Example usage: hydrateRoot(domContainer, <App />)"
+                "Must provide initial children as second argument to hydrateRoot. Example usage: hydrateRoot(domContainer, <Home />)"
               );
             }
           }
