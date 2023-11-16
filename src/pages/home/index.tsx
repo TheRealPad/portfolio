@@ -14,12 +14,12 @@ function Home() {
       <button
         onClick={() => {
           pushView({
-            data: { project: { name: "test" } },
+            data: { project: { name: "T'es moche" } },
             useCase: UseCases.Project,
           });
         }}
       >
-        coucou
+        click ici bg
       </button>
     </div>
   );
