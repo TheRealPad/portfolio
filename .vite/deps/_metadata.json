@@ -1,0 +1,107 @@
+{
+  "hash": "7d6be4b2",
+  "browserHash": "6d2db416",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "08afae34",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../axios/index.js",
+      "file": "axios.js",
+      "fileHash": "ca10739d",
+      "needsInterop": false
+    },
+    "classnames": {
+      "src": "../../classnames/index.js",
+      "file": "classnames.js",
+      "fileHash": "143dc59a",
+      "needsInterop": true
+    },
+    "i18next": {
+      "src": "../../i18next/dist/esm/i18next.js",
+      "file": "i18next.js",
+      "fileHash": "2f436803",
+      "needsInterop": false
+    },
+    "i18next-browser-languagedetector": {
+      "src": "../../i18next-browser-languagedetector/dist/esm/i18nextBrowserLanguageDetector.js",
+      "file": "i18next-browser-languagedetector.js",
+      "fileHash": "0bd8e245",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "ec0d40e8",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "7251a771",
+      "needsInterop": true
+    },
+    "react-i18next": {
+      "src": "../../react-i18next/dist/es/index.js",
+      "file": "react-i18next.js",
+      "fileHash": "25f25595",
+      "needsInterop": false
+    },
+    "react-redux": {
+      "src": "../../react-redux/es/index.js",
+      "file": "react-redux.js",
+      "fileHash": "b3ae777f",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "bd066a6a",
+      "needsInterop": false
+    },
+    "redux": {
+      "src": "../../redux/es/redux.js",
+      "file": "redux.js",
+      "fileHash": "41608f70",
+      "needsInterop": false
+    },
+    "redux-dynamic-middlewares": {
+      "src": "../../redux-dynamic-middlewares/lib/index.js",
+      "file": "redux-dynamic-middlewares.js",
+      "fileHash": "72947937",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-GDBFQKJW": {
+      "file": "chunk-GDBFQKJW.js"
+    },
+    "chunk-HTHQKSPX": {
+      "file": "chunk-HTHQKSPX.js"
+    },
+    "chunk-QJV3R4PZ": {
+      "file": "chunk-QJV3R4PZ.js"
+    },
+    "chunk-JFTBQ7A7": {
+      "file": "chunk-JFTBQ7A7.js"
+    },
+    "chunk-THG6DPKC": {
+      "file": "chunk-THG6DPKC.js"
+    },
+    "chunk-TVXNE7JQ": {
+      "file": "chunk-TVXNE7JQ.js"
+    },
+    "chunk-D3EHZ3HS": {
+      "file": "chunk-D3EHZ3HS.js"
+    },
+    "chunk-SR3OVNSJ": {
+      "file": "chunk-SR3OVNSJ.js"
+    },
+    "chunk-AC2VUBZ6": {
+      "file": "chunk-AC2VUBZ6.js"
+    }
+  }
+}
