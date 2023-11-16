@@ -1,7 +1,4 @@
-import {
-  _classCallCheck,
-  _createClass
-} from "./chunk-D3EHZ3HS.js";
+import { _classCallCheck, _createClass } from "./chunk-D3EHZ3HS.js";
 import "./chunk-SR3OVNSJ.js";
 import "./chunk-AC2VUBZ6.js";
 
@@ -10,11 +7,10 @@ var arr = [];
 var each = arr.forEach;
 var slice = arr.slice;
 function defaults(obj) {
-  each.call(slice.call(arguments, 1), function(source) {
+  each.call(slice.call(arguments, 1), function (source) {
     if (source) {
       for (var prop in source) {
-        if (obj[prop] === void 0)
-          obj[prop] = source[prop];
+        if (obj[prop] === void 0) obj[prop] = source[prop];
       }
     }
   });
@@ -28,8 +24,7 @@ var serializeCookie = function serializeCookie2(name, val, options) {
   var str = "".concat(name, "=").concat(value);
   if (opt.maxAge > 0) {
     var maxAge = opt.maxAge - 0;
-    if (Number.isNaN(maxAge))
-      throw new Error("maxAge should be a Number");
+    if (Number.isNaN(maxAge)) throw new Error("maxAge should be a Number");
     str += "; Max-Age=".concat(Math.floor(maxAge));
   }
   if (opt.domain) {
@@ -50,12 +45,13 @@ var serializeCookie = function serializeCookie2(name, val, options) {
     }
     str += "; Expires=".concat(opt.expires.toUTCString());
   }
-  if (opt.httpOnly)
-    str += "; HttpOnly";
-  if (opt.secure)
-    str += "; Secure";
+  if (opt.httpOnly) str += "; HttpOnly";
+  if (opt.secure) str += "; Secure";
   if (opt.sameSite) {
-    var sameSite = typeof opt.sameSite === "string" ? opt.sameSite.toLowerCase() : opt.sameSite;
+    var sameSite =
+      typeof opt.sameSite === "string"
+        ? opt.sameSite.toLowerCase()
+        : opt.sameSite;
     switch (sameSite) {
       case true:
         str += "; SameSite=Strict";
@@ -77,17 +73,25 @@ var serializeCookie = function serializeCookie2(name, val, options) {
 };
 var cookie = {
   create: function create(name, value, minutes, domain) {
-    var cookieOptions = arguments.length > 4 && arguments[4] !== void 0 ? arguments[4] : {
-      path: "/",
-      sameSite: "strict"
-    };
+    var cookieOptions =
+      arguments.length > 4 && arguments[4] !== void 0
+        ? arguments[4]
+        : {
+            path: "/",
+            sameSite: "strict",
+          };
     if (minutes) {
       cookieOptions.expires = /* @__PURE__ */ new Date();
-      cookieOptions.expires.setTime(cookieOptions.expires.getTime() + minutes * 60 * 1e3);
+      cookieOptions.expires.setTime(
+        cookieOptions.expires.getTime() + minutes * 60 * 1e3
+      );
     }
-    if (domain)
-      cookieOptions.domain = domain;
-    document.cookie = serializeCookie(name, encodeURIComponent(value), cookieOptions);
+    if (domain) cookieOptions.domain = domain;
+    document.cookie = serializeCookie(
+      name,
+      encodeURIComponent(value),
+      cookieOptions
+    );
   },
   read: function read(name) {
     var nameEQ = "".concat(name, "=");
@@ -97,14 +101,13 @@ var cookie = {
       while (c.charAt(0) === " ") {
         c = c.substring(1, c.length);
       }
-      if (c.indexOf(nameEQ) === 0)
-        return c.substring(nameEQ.length, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
     }
     return null;
   },
   remove: function remove(name) {
     this.create(name, "", -1);
-  }
+  },
 };
 var cookie$1 = {
   name: "cookie",
@@ -112,16 +115,21 @@ var cookie$1 = {
     var found;
     if (options.lookupCookie && typeof document !== "undefined") {
       var c = cookie.read(options.lookupCookie);
-      if (c)
-        found = c;
+      if (c) found = c;
     }
     return found;
   },
   cacheUserLanguage: function cacheUserLanguage(lng, options) {
     if (options.lookupCookie && typeof document !== "undefined") {
-      cookie.create(options.lookupCookie, lng, options.cookieMinutes, options.cookieDomain, options.cookieOptions);
+      cookie.create(
+        options.lookupCookie,
+        lng,
+        options.cookieMinutes,
+        options.cookieDomain,
+        options.cookieOptions
+      );
     }
-  }
+  },
 };
 var querystring = {
   name: "querystring",
@@ -129,8 +137,14 @@ var querystring = {
     var found;
     if (typeof window !== "undefined") {
       var search = window.location.search;
-      if (!window.location.search && window.location.hash && window.location.hash.indexOf("?") > -1) {
-        search = window.location.hash.substring(window.location.hash.indexOf("?"));
+      if (
+        !window.location.search &&
+        window.location.hash &&
+        window.location.hash.indexOf("?") > -1
+      ) {
+        search = window.location.hash.substring(
+          window.location.hash.indexOf("?")
+        );
       }
       var query = search.substring(1);
       var params = query.split("&");
@@ -145,14 +159,14 @@ var querystring = {
       }
     }
     return found;
-  }
+  },
 };
 var hasLocalStorageSupport = null;
 var localStorageAvailable = function localStorageAvailable2() {
-  if (hasLocalStorageSupport !== null)
-    return hasLocalStorageSupport;
+  if (hasLocalStorageSupport !== null) return hasLocalStorageSupport;
   try {
-    hasLocalStorageSupport = window !== "undefined" && window.localStorage !== null;
+    hasLocalStorageSupport =
+      window !== "undefined" && window.localStorage !== null;
     var testKey = "i18next.translate.boo";
     window.localStorage.setItem(testKey, "foo");
     window.localStorage.removeItem(testKey);
@@ -167,8 +181,7 @@ var localStorage = {
     var found;
     if (options.lookupLocalStorage && localStorageAvailable()) {
       var lng = window.localStorage.getItem(options.lookupLocalStorage);
-      if (lng)
-        found = lng;
+      if (lng) found = lng;
     }
     return found;
   },
@@ -176,14 +189,14 @@ var localStorage = {
     if (options.lookupLocalStorage && localStorageAvailable()) {
       window.localStorage.setItem(options.lookupLocalStorage, lng);
     }
-  }
+  },
 };
 var hasSessionStorageSupport = null;
 var sessionStorageAvailable = function sessionStorageAvailable2() {
-  if (hasSessionStorageSupport !== null)
-    return hasSessionStorageSupport;
+  if (hasSessionStorageSupport !== null) return hasSessionStorageSupport;
   try {
-    hasSessionStorageSupport = window !== "undefined" && window.sessionStorage !== null;
+    hasSessionStorageSupport =
+      window !== "undefined" && window.sessionStorage !== null;
     var testKey = "i18next.translate.boo";
     window.sessionStorage.setItem(testKey, "foo");
     window.sessionStorage.removeItem(testKey);
@@ -198,8 +211,7 @@ var sessionStorage = {
     var found;
     if (options.lookupSessionStorage && sessionStorageAvailable()) {
       var lng = window.sessionStorage.getItem(options.lookupSessionStorage);
-      if (lng)
-        found = lng;
+      if (lng) found = lng;
     }
     return found;
   },
@@ -207,7 +219,7 @@ var sessionStorage = {
     if (options.lookupSessionStorage && sessionStorageAvailable()) {
       window.sessionStorage.setItem(options.lookupSessionStorage, lng);
     }
-  }
+  },
 };
 var navigator$1 = {
   name: "navigator",
@@ -227,18 +239,20 @@ var navigator$1 = {
       }
     }
     return found.length > 0 ? found : void 0;
-  }
+  },
 };
 var htmlTag = {
   name: "htmlTag",
   lookup: function lookup6(options) {
     var found;
-    var htmlTag2 = options.htmlTag || (typeof document !== "undefined" ? document.documentElement : null);
+    var htmlTag2 =
+      options.htmlTag ||
+      (typeof document !== "undefined" ? document.documentElement : null);
     if (htmlTag2 && typeof htmlTag2.getAttribute === "function") {
       found = htmlTag2.getAttribute("lang");
     }
     return found;
-  }
+  },
 };
 var path = {
   name: "path",
@@ -258,104 +272,122 @@ var path = {
       }
     }
     return found;
-  }
+  },
 };
 var subdomain = {
   name: "subdomain",
   lookup: function lookup8(options) {
-    var lookupFromSubdomainIndex = typeof options.lookupFromSubdomainIndex === "number" ? options.lookupFromSubdomainIndex + 1 : 1;
-    var language = typeof window !== "undefined" && window.location && window.location.hostname && window.location.hostname.match(/^(\w{2,5})\.(([a-z0-9-]{1,63}\.[a-z]{2,6})|localhost)/i);
-    if (!language)
-      return void 0;
+    var lookupFromSubdomainIndex =
+      typeof options.lookupFromSubdomainIndex === "number"
+        ? options.lookupFromSubdomainIndex + 1
+        : 1;
+    var language =
+      typeof window !== "undefined" &&
+      window.location &&
+      window.location.hostname &&
+      window.location.hostname.match(
+        /^(\w{2,5})\.(([a-z0-9-]{1,63}\.[a-z]{2,6})|localhost)/i
+      );
+    if (!language) return void 0;
     return language[lookupFromSubdomainIndex];
-  }
+  },
 };
 function getDefaults() {
   return {
-    order: ["querystring", "cookie", "localStorage", "sessionStorage", "navigator", "htmlTag"],
+    order: [
+      "querystring",
+      "cookie",
+      "localStorage",
+      "sessionStorage",
+      "navigator",
+      "htmlTag",
+    ],
     lookupQuerystring: "lng",
     lookupCookie: "i18next",
     lookupLocalStorage: "i18nextLng",
     lookupSessionStorage: "i18nextLng",
     // cache user language
     caches: ["localStorage"],
-    excludeCacheFor: ["cimode"]
+    excludeCacheFor: ["cimode"],
     // cookieMinutes: 10,
     // cookieDomain: 'myDomain'
   };
 }
-var Browser = function() {
+var Browser = (function () {
   function Browser2(services) {
-    var options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+    var options =
+      arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
     _classCallCheck(this, Browser2);
     this.type = "languageDetector";
     this.detectors = {};
     this.init(services, options);
   }
-  _createClass(Browser2, [{
-    key: "init",
-    value: function init(services) {
-      var options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
-      var i18nOptions = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
-      this.services = services;
-      this.options = defaults(options, this.options || {}, getDefaults());
-      if (this.options.lookupFromUrlIndex)
-        this.options.lookupFromPathIndex = this.options.lookupFromUrlIndex;
-      this.i18nOptions = i18nOptions;
-      this.addDetector(cookie$1);
-      this.addDetector(querystring);
-      this.addDetector(localStorage);
-      this.addDetector(sessionStorage);
-      this.addDetector(navigator$1);
-      this.addDetector(htmlTag);
-      this.addDetector(path);
-      this.addDetector(subdomain);
-    }
-  }, {
-    key: "addDetector",
-    value: function addDetector(detector) {
-      this.detectors[detector.name] = detector;
-    }
-  }, {
-    key: "detect",
-    value: function detect(detectionOrder) {
-      var _this = this;
-      if (!detectionOrder)
-        detectionOrder = this.options.order;
-      var detected = [];
-      detectionOrder.forEach(function(detectorName) {
-        if (_this.detectors[detectorName]) {
-          var lookup9 = _this.detectors[detectorName].lookup(_this.options);
-          if (lookup9 && typeof lookup9 === "string")
-            lookup9 = [lookup9];
-          if (lookup9)
-            detected = detected.concat(lookup9);
-        }
-      });
-      if (this.services.languageUtils.getBestMatchFromCodes)
-        return detected;
-      return detected.length > 0 ? detected[0] : null;
-    }
-  }, {
-    key: "cacheUserLanguage",
-    value: function cacheUserLanguage4(lng, caches) {
-      var _this2 = this;
-      if (!caches)
-        caches = this.options.caches;
-      if (!caches)
-        return;
-      if (this.options.excludeCacheFor && this.options.excludeCacheFor.indexOf(lng) > -1)
-        return;
-      caches.forEach(function(cacheName) {
-        if (_this2.detectors[cacheName])
-          _this2.detectors[cacheName].cacheUserLanguage(lng, _this2.options);
-      });
-    }
-  }]);
+  _createClass(Browser2, [
+    {
+      key: "init",
+      value: function init(services) {
+        var options =
+          arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
+        var i18nOptions =
+          arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
+        this.services = services;
+        this.options = defaults(options, this.options || {}, getDefaults());
+        if (this.options.lookupFromUrlIndex)
+          this.options.lookupFromPathIndex = this.options.lookupFromUrlIndex;
+        this.i18nOptions = i18nOptions;
+        this.addDetector(cookie$1);
+        this.addDetector(querystring);
+        this.addDetector(localStorage);
+        this.addDetector(sessionStorage);
+        this.addDetector(navigator$1);
+        this.addDetector(htmlTag);
+        this.addDetector(path);
+        this.addDetector(subdomain);
+      },
+    },
+    {
+      key: "addDetector",
+      value: function addDetector(detector) {
+        this.detectors[detector.name] = detector;
+      },
+    },
+    {
+      key: "detect",
+      value: function detect(detectionOrder) {
+        var _this = this;
+        if (!detectionOrder) detectionOrder = this.options.order;
+        var detected = [];
+        detectionOrder.forEach(function (detectorName) {
+          if (_this.detectors[detectorName]) {
+            var lookup9 = _this.detectors[detectorName].lookup(_this.options);
+            if (lookup9 && typeof lookup9 === "string") lookup9 = [lookup9];
+            if (lookup9) detected = detected.concat(lookup9);
+          }
+        });
+        if (this.services.languageUtils.getBestMatchFromCodes) return detected;
+        return detected.length > 0 ? detected[0] : null;
+      },
+    },
+    {
+      key: "cacheUserLanguage",
+      value: function cacheUserLanguage4(lng, caches) {
+        var _this2 = this;
+        if (!caches) caches = this.options.caches;
+        if (!caches) return;
+        if (
+          this.options.excludeCacheFor &&
+          this.options.excludeCacheFor.indexOf(lng) > -1
+        )
+          return;
+        caches.forEach(function (cacheName) {
+          if (_this2.detectors[cacheName])
+            _this2.detectors[cacheName].cacheUserLanguage(lng, _this2.options);
+        });
+      },
+    },
+  ]);
   return Browser2;
-}();
+})();
 Browser.type = "languageDetector";
-export {
-  Browser as default
-};
+export { Browser as default };
 //# sourceMappingURL=i18next-browser-languagedetector.js.map

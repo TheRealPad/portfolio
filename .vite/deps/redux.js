@@ -6,7 +6,7 @@ import {
   compose,
   createStore,
   init_redux,
-  legacy_createStore
+  legacy_createStore,
 } from "./chunk-GDBFQKJW.js";
 import "./chunk-TVXNE7JQ.js";
 import "./chunk-SR3OVNSJ.js";
@@ -19,6 +19,6 @@ export {
   combineReducers,
   compose,
   createStore,
-  legacy_createStore
+  legacy_createStore,
 };
 //# sourceMappingURL=redux.js.map

@@ -1,0 +1,46 @@
+run-name: Deploy Workflow
+name: Deploy
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: "build project"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.x"
+
+      - name: init project
+        run: npm install
+
+      - name: build project
+        run: npm run build
+
+  deploy:
+    name: "Deploy project on cloud flare"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14.x"
+
+      - name: deploy
+        run: echo "this script will deploy the app"

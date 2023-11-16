@@ -1,7 +1,4 @@
-import {
-  _toPropertyKey,
-  init_toPropertyKey
-} from "./chunk-SR3OVNSJ.js";
+import { _toPropertyKey, init_toPropertyKey } from "./chunk-SR3OVNSJ.js";
 
 // node_modules/@babel/runtime/helpers/esm/classCallCheck.js
 function _classCallCheck(instance, Constructor) {
@@ -17,24 +14,18 @@ function _defineProperties(target, props) {
     var descriptor = props[i];
     descriptor.enumerable = descriptor.enumerable || false;
     descriptor.configurable = true;
-    if ("value" in descriptor)
-      descriptor.writable = true;
+    if ("value" in descriptor) descriptor.writable = true;
     Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor);
   }
 }
 function _createClass(Constructor, protoProps, staticProps) {
-  if (protoProps)
-    _defineProperties(Constructor.prototype, protoProps);
-  if (staticProps)
-    _defineProperties(Constructor, staticProps);
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
   Object.defineProperty(Constructor, "prototype", {
-    writable: false
+    writable: false,
   });
   return Constructor;
 }
 
-export {
-  _classCallCheck,
-  _createClass
-};
+export { _classCallCheck, _createClass };
 //# sourceMappingURL=chunk-D3EHZ3HS.js.map
