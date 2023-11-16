@@ -1,5 +1,5 @@
-run-name: Deploy Workflow
-name: Deploy
+run-name: Run build to test for Deploy
+name: Build
 
 on:
   pull_request:
@@ -28,15 +28,3 @@ jobs:
 
       - name: build project
         run: npm run build
-
-  deploy:
-    name: "Deploy project on cloud flare"
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-      - name: Deploy
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
