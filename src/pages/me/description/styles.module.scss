@@ -1,0 +1,20 @@
+.description {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 60rem;
+  flex-wrap: wrap;
+  color: var(--color-white);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.profilePicture {
+  width: 10rem;
+  height: 14rem;
+}
+
+.rightBox {
+  max-width: 47rem;
+}

@@ -1,12 +1,16 @@
-import styles from "./index.module.scss";
-import { Header } from "./header";
+import { useTranslation } from "react-i18next";
+
+import { Header } from "@common/header";
 import { Description } from "./description";
 import { Buttons } from "./buttons";
+import styles from "./index.module.scss";
 
 function Home() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.home}>
-      <Header />
+      <Header title={t("home.header.title")} />
       <div className={styles.content}>
         <Buttons />
         <Description />

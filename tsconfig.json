@@ -23,6 +23,7 @@
     "paths": {
       "@app/*": ["src/app/*"],
       "@scenes/*": ["src/scenes/*"],
+      "@common/*": ["src/common/*"],
     }
   },
   "include": ["src"],

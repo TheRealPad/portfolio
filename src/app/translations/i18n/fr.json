@@ -1,7 +1,9 @@
 {
   "home": {
     "header": {
-      "title": "Bienvenue"
+      "title": "Bienvenue",
+      "titleMe": "Moi",
+      "titleProject": "Projets"
     },
     "description": "Étudiant en informatique à Epitech Paris et San Francisco State University, passionné par le development web, mobile/natif, le devOps et les systèmes de base de données",
     "resume": {
@@ -10,5 +12,12 @@
     },
     "projectRedirection": "Projets",
     "meRedirection": "Moi"
+  },
+  "me": {
+    "description": "Étudiant passionné par l'informatique, j'ai rejoint Epitech en octobre 2020 afin d'avoir un bachelor en informatique en 2023 et de valide run master en informatique en mai 2025. Je suis actuellement en échange à San Francisco State University pour l'année universitaire 2023-2024 et je suis actuellement à la recherche d'un stage/emploi à San Francisco pour l'été 2024 ou à partir de février 2023. Mes sujets de prédilections en informatique sont le dévelopement web, Front end et Back end. J'ai aussi des compétences en DevOps, je m'intéresse au développement mobile, notamment du coté language natif et je m'intéresse aussi au développement de systèmes de base de données. Vous pouvez trouver plus d'informations sur mes projets sur mon github ou sur la page projet de mon portfolio. Vous pouvez retrouver mes CV dans le header en haut à droite.",
+    "event": {
+      "vivatech": "En 2022 j'ai eu la chance de pouvoir participer à l'évènement Vivatech en tant que bénévole et de pouvoir découvrir de nombreuses nouvelles technologie.",
+      "hackaton": "En 2022 j'ai eu la chance de pouvoir participer à un Hackaton avec Bouygues Télécom afin de trouver de nouvelles manière d'utiliser leurs nouvelle API afin de gérer son compte et ses données. Avec mon groupe nous avons eu l'idée de faire un bot Discord afin de simplifier l'accès aux données. Nous avons fini 3ème du hackaton."
+    }
   }
 }

@@ -1,16 +1,13 @@
-import { useTranslation } from "react-i18next";
-
 import { LanguageSelector } from "./languageSelector";
-import styles from "./styles.module.scss";
 import { Resumes } from "./resumes";
+import { Props } from "./types.ts";
+import styles from "./styles.module.scss";
 
-function Header() {
-  const { t } = useTranslation();
-
+function Header(props: Props) {
   return (
     <div className={styles.header}>
       <LanguageSelector />
-      <h1>{t("home.header.title")}</h1>
+      <h1>{props.title}</h1>
       <Resumes />
     </div>
   );
