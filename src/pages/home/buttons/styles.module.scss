@@ -1,0 +1,21 @@
+.buttons {
+  display: inline-flex;
+  gap: 2rem;
+  max-width: 23rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  position: relative;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 4px;
+  width: 10rem;
+  height: 2rem;
+
+  & > p {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+}

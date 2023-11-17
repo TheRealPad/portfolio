@@ -2,6 +2,13 @@
   "home": {
     "header": {
       "title": "Bienvenue"
-    }
+    },
+    "description": "Étudiant en informatique à Epitech Paris et San Francisco State University, passionné par le development web, mobile/natif, le devOps et les systèmes de base de données",
+    "resume": {
+      "french": "CV français",
+      "american": "CV américain"
+    },
+    "projectRedirection": "Projets",
+    "meRedirection": "Moi"
   }
 }

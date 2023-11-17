@@ -2,6 +2,13 @@
   "home": {
     "header": {
       "title": "Welcome"
-    }
+    },
+    "description": "Computer science student at Epitech Paris and San Francisco State University, passionate about web development, mobile/native, devOps and database systems.",
+    "resume": {
+      "french": "French resume",
+      "american": "American resume"
+    },
+    "projectRedirection": "Projects",
+    "meRedirection": "Me"
   }
 }
