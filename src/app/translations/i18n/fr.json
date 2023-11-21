@@ -1,7 +1,7 @@
 {
   "home": {
     "header": {
-      "title": "Bienvenue",
+      "titleHome": "Bienvenue",
       "titleMe": "Moi",
       "titleProject": "Projets"
     },

@@ -1,4 +1,5 @@
 import Project from "@scenes/project";
+import TimelineElement from "@scenes/timelineElement";
 import { UseCases, ViewModels } from "./type";
 import { useWrapperContext } from "./wrapper";
 import styles from "./styles.module.scss";
@@ -13,6 +14,11 @@ function Wrapper() {
   const modals = {
     [UseCases.Project]: ({ project }: ViewModels[UseCases.Project]) => (
       <Project project={project} />
+    ),
+    [UseCases.TimelineElement]: ({
+      element,
+    }: ViewModels[UseCases.TimelineElement]) => (
+      <TimelineElement element={element} />
     ),
   };
 

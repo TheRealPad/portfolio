@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className={styles.home}>
-      <Header title={t("home.header.title")} />
+      <Header title={t("home.header.titleHome")} />
       <div className={styles.content}>
         <Buttons />
         <Description />
