@@ -19,5 +19,12 @@
       "vivatech": "In 2022, I had the chance to take part in the Vivatech event as a volunteer and to discover many new technologies.",
       "hackaton": "In 2022, I had the chance to take part in a Hackaton with Bouygues Telecom to find new ways of using their new API to manage accounts and data. My group and I came up with the idea of creating a Discord bot to simplify data access. We finished 3rd in the hackaton."
     }
+  },
+  "timelineElements": {
+    "epitech": "A school with an active pedagogy, no theoretical courses, only projects to learn much faster. You don't learn a language, you learn how to learn, so you can adapt to any situation today, tomorrow or in 10 years' time.",
+    "sfsu": "A year abroad to improve my English and IT skills and discover a new culture.",
+    "carrefour": "My first internship was with Carrefour, the world's second-largest distributor. During my internship, I had the chance to work on an internal application as a fullstack developer, creating a storage algorithm for Carrefour's automated warehouses, based on a given list of products.",
+    "augeoOne": "This internship was part-time, with 3 days at school (Monday-Tuesday-Wednesday) and 2 days at the company (Thursday-Friday). I had the chance to work on the Planzone software as a front-end developer. Mainly on the UI/UX side and to work with the designers in more detail. This internship enabled me to focus on my front-end development and design skills, in order to meet customers' needs.",
+    "augeoTwo": "This internship, which followed my first internship at Augeo Software, was full-time. Still working as a frontend developer, I mainly worked on the core/logic part of the frontend, managing data between the server and the client. This internship enabled me, after having greatly improved my frontend skills on the design side, to improve on the logic and data management side to better understand the interactions between the client/browser and the server."
   }
 }

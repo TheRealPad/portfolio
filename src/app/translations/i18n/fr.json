@@ -19,5 +19,12 @@
       "vivatech": "En 2022 j'ai eu la chance de pouvoir participer à l'évènement Vivatech en tant que bénévole et de pouvoir découvrir de nombreuses nouvelles technologie.",
       "hackaton": "En 2022 j'ai eu la chance de pouvoir participer à un Hackaton avec Bouygues Télécom afin de trouver de nouvelles manière d'utiliser leurs nouvelle API afin de gérer son compte et ses données. Avec mon groupe nous avons eu l'idée de faire un bot Discord afin de simplifier l'accès aux données. Nous avons fini 3ème du hackaton."
     }
+  },
+  "timelineElements": {
+    "epitech": "Une école a la pédagogie active, pas de cours théorique, uniquement des projets afin de pouvoir apprendre beaucoup plus rapidement. On n'apprend pas un language, mais on apprend à apprendre afin de pouvoir s'adapter à toutes les situations aujourd'hui, demain ou dans 10 ans",
+    "sfsu": "Une année à l'international afin de parfaire mon anglais et de gagner en compétence en informatique et de découvrir une nouvelle culture.",
+    "carrefour": "Mon premier stage en entreprise, chez Carrefour, deuxième distributeur mondial. Lors de mon stage j'ai eu la chance de pouvoir travailler sur une application interne en tant que développeur fullstack afin de faire un algorithme de rangement pour les entrepôts automatisés de Carrefour suivant une liste de produits donné.",
+    "augeoOne": "Ce stage à la particularité d'être à temps partiel, 3 jours à l'école (lundi-mard-mercredi) et 2 jours en entreprise (jeudi-vendredi). J'ai eu la chance de pouvoir travailler sur le logiciel Planzone en tant que développeur frontend. Principalement sur la partir UI/UX et de travailler avec les designers plus en détails. Ce stage m'a permis de me concentrer sur mes capacités de développeur frontend et de design afin de répondre aux besoin des clients.",
+    "augeoTwo": "Ce stage qui a suivi mon premier stage chez Augeo Software était à temps plein. Toujours au poste de développeur frontend, j'ai cependant travaillé principalement travaillé sur la partie core/logique du frontend en gérant les données entre le serveur et le client. Ce stage m'a permis, après avoir grandement amélioré mes capacités frontend côté design, de m'améliorer côté logique et gestion des données afin de mieux comprendre les interactions entre le client/navigateur et le serveur."
   }
 }

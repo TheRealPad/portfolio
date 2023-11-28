@@ -1,6 +1,6 @@
-import styles from "./styles.module.scss";
 import { timelineElements } from "./init.ts";
 import { Line } from "./line";
+import styles from "./styles.module.scss";
 
 function monthsBetweenDates(startDate: Date, endDate: Date): number {
   const startYear = startDate.getFullYear();

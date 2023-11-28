@@ -34,6 +34,7 @@ function Line({ totalMonths, elements, endDate }: Props) {
                         width: "1rem",
                         height: "1rem",
                         marginTop: pos + "rem",
+                        cursor: "pointer",
                       }}
                     />
                   )}
@@ -41,7 +42,7 @@ function Line({ totalMonths, elements, endDate }: Props) {
             ))}
           </div>
         </div>
-      ))}
+      )).reverse()}
     </div>
   );
 }
