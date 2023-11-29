@@ -1,0 +1,37 @@
+.project {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-black);
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-y: hidden;
+  height: 1.5rem;
+  width: 30rem;
+  transition: height 0.5s ease;
+  color: var(--color-white);
+  cursor: pointer;
+
+  & > :first-child {
+    margin-bottom: 1rem;
+  }
+
+  & > :not(:first-child, :last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.displayAll {
+  height: 12rem;
+  overflow-y: auto;
+}
+
+.keywords {
+  display: inline-flex;
+  gap: 0.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.keyword {
+  text-decoration: underline;
+  font-style: italic;
+}

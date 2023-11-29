@@ -26,5 +26,15 @@
     "carrefour": "My first internship was with Carrefour, the world's second-largest distributor. During my internship, I had the chance to work on an internal application as a fullstack developer, creating a storage algorithm for Carrefour's automated warehouses, based on a given list of products.",
     "augeoOne": "This internship was part-time, with 3 days at school (Monday-Tuesday-Wednesday) and 2 days at the company (Thursday-Friday). I had the chance to work on the Planzone software as a front-end developer. Mainly on the UI/UX side and to work with the designers in more detail. This internship enabled me to focus on my front-end development and design skills, in order to meet customers' needs.",
     "augeoTwo": "This internship, which followed my first internship at Augeo Software, was full-time. Still working as a frontend developer, I mainly worked on the core/logic part of the frontend, managing data between the server and the client. This internship enabled me, after having greatly improved my frontend skills on the design side, to improve on the logic and data management side to better understand the interactions between the client/browser and the server."
+  },
+  "projects": {
+    "resetFilter": "Reset filter",
+    "rtype": "School project at Epitech. Game engine in C++ to create the R-TYPE game and to add network functionalities (online game up to 4 players)",
+    "area": "School project at Epitech. Creation of a server connected to a database, web and mobile application, all working with docker. The objective is to proprose actions, like receiving an email, and reactions like sending an email or post a tweet and let the user create their own action/reactions",
+    "todolist": "Todolist server and client, the objective was to deploy the application and try a new software architecture for the client part",
+    "handwrittenDigits": "Simple server to receive digits image and with a ML algorithm, try to find the digits send. My objective was to make a first ML program.",
+    "pokemonCompanion": "Application for Android and Wear OS, to make the communication between 2 devices in native language.",
+    "database": "School project at San Francisco State University. The objective was to create a real database system to answer a real question with all the documentation needed in a company (description, use cases, schema). We create a discord bot to access the data.",
+    "softwareEngineering": "School project at San Francisco State University. The objective was to create a real web application with a server connected to a database and a client, deploy everything, the final result cannot be on localhost. The application handle all alerts in California for Covid, wild fire, crime and meteo and send alerts to the users in the different counties."
   }
 }

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import styles from "./index.module.scss";
+import styles from "./styles.module.scss";
 import { Props } from "./types.ts";
 
 function TimelineElement({ element }: Props) {

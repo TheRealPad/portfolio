@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 import { Header } from "@common/header";
-import styles from "./index.module.scss";
+import styles from "./styles.module.scss";
 import { Description } from "./description";
 import { Timeline } from "./timeline";
 

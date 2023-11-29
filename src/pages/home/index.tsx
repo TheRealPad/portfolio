@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Header } from "@common/header";
 import { Description } from "./description";
 import { Buttons } from "./buttons";
-import styles from "./index.module.scss";
+import styles from "./styles.module.scss";
 
 function Home() {
   const { t } = useTranslation();
