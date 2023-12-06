@@ -12,8 +12,10 @@ function Description() {
       <div className={styles.rightBox}>
         <p>{t("me.description")}</p>
       </div>
-      <li>{t("me.event.vivatech")}</li>
-      <li>{t("me.event.hackaton")}</li>
+      <div className={styles.events}>
+        <li>{t("me.event.vivatech")}</li>
+        <li>{t("me.event.hackaton")}</li>
+      </div>
     </div>
   );
 }

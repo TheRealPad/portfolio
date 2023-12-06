@@ -8,4 +8,8 @@
   color: var(--color-white);
   padding-top: 1rem;
   padding-bottom: 1rem;
+
+  & > :nth-child(2) {
+    cursor: pointer;
+  }
 }

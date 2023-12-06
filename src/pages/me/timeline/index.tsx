@@ -33,8 +33,10 @@ function Timeline() {
           <div key={index} className={styles.description}>
             <div
               style={{
-                width: "0.5rem",
-                height: "0.5rem",
+                width: "0",
+                height: "0",
+                minWidth: "10px",
+                minHeight: "10px",
                 borderRadius: "24px",
                 backgroundColor: elem.color,
               }}
@@ -43,8 +45,10 @@ function Timeline() {
           </div>
         ))}
       </div>
-      <Line totalMonths={totalMonths} elements={schools} endDate={endDate} />
-      <Line totalMonths={totalMonths} elements={works} endDate={endDate} />
+      <div className={styles.lines}>
+        <Line totalMonths={totalMonths} elements={schools} endDate={endDate} />
+        <Line totalMonths={totalMonths} elements={works} endDate={endDate} />
+      </div>
     </div>
   );
 }

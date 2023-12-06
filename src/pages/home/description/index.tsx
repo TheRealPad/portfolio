@@ -7,10 +7,15 @@ function Description() {
   const links = [
     { name: "Github", link: "https://github.com/TheRealPad" },
     {
-      name: "LinkdIn",
+      name: "LinkedIn",
       link: "https://www.linkedin.com/in/pierre-alexandre-delgado-106b81202/",
     },
+    {
+      name: "Gitlab",
+      link: "https://gitlab.com/todolist-micro-services",
+    },
   ];
+
   return (
     <div className={styles.description}>
       <p className={styles.content}>{t("home.description")}</p>

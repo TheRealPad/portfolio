@@ -1,22 +1,23 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 
 import { Header } from "@common/header";
+import { HomeButton } from "@common/homeButton";
 import { Filter } from "./filter";
 import { projects } from "./init.ts";
 import styles from "./styles.module.scss";
 import { Project } from "./project";
 
 function Projects() {
-  const navigate = useNavigate();
   const { t } = useTranslation();
   const [selectedKeywords, setSelectedKeywords] = useState<string[]>([]);
 
   return (
     <div className={styles.projects}>
       <Header title={t("home.header.titleProject")} />
-      <button onClick={() => navigate("/")}>home</button>
+      <div className={styles.homeButton}>
+        <HomeButton />
+      </div>
       <div className={styles.content}>
         <Filter
           selectedKeywords={selectedKeywords}

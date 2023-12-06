@@ -14,7 +14,7 @@
     "meRedirection": "Me"
   },
   "me": {
-    "description": "As a student with a passion for IT, I joined Epitech in October 2020 with a view to obtaining a bachelor's degree in computer science in 2023 and a master in computer science in May 2025. I'm currently on exchange at San Francisco State University for the academic year 2023-2024 and I am currently looking for an internship/job in San Francisco for the summer of 2024 or starting in February 2023. My favorite are web development, front end and back end. I also have skills in DevOps, I'm interested in mobile mobile development, especially on the native language side, and I'm also interested in developing database systems. You can find out more about my projects on my github or on the project page of my portfolio. You can find my resume in the header on the top right.",
+    "description": "As a student with a passion for IT, I joined Epitech in October 2020 with a view to obtaining a bachelor's degree in computer science in 2023 and a master in computer science in May 2025. I'm currently on exchange at San Francisco State University for the academic year 2023-2024 and I am currently looking for an internship/job in San Francisco for the summer of 2024 or starting in February 2024. My favorite are web development, front end and back end. I also have skills in DevOps, I'm interested in mobile mobile development, especially on the native language side, and I'm also interested in developing database systems. You can find out more about my projects on my github or on the project page of my portfolio. You can find my resume in the header on the top right.",
     "event": {
       "vivatech": "In 2022, I had the chance to take part in the Vivatech event as a volunteer and to discover many new technologies.",
       "hackaton": "In 2022, I had the chance to take part in a Hackaton with Bouygues Telecom to find new ways of using their new API to manage accounts and data. My group and I came up with the idea of creating a Discord bot to simplify data access. We finished 3rd in the hackaton."
@@ -36,5 +36,8 @@
     "pokemonCompanion": "Application for Android and Wear OS, to make the communication between 2 devices in native language.",
     "database": "School project at San Francisco State University. The objective was to create a real database system to answer a real question with all the documentation needed in a company (description, use cases, schema). We create a discord bot to access the data.",
     "softwareEngineering": "School project at San Francisco State University. The objective was to create a real web application with a server connected to a database and a client, deploy everything, the final result cannot be on localhost. The application handle all alerts in California for Covid, wild fire, crime and meteo and send alerts to the users in the different counties."
+  },
+  "common": {
+    "home": "home"
   }
 }

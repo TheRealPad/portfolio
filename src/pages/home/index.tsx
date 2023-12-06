@@ -12,11 +12,17 @@ function Home() {
     <div className={styles.home}>
       <Header title={t("home.header.titleHome")} />
       <div className={styles.content}>
-        <Buttons />
         <Description />
+        <Buttons />
         <div className={styles.images}>
           <img style={{ width: 200, height: 75 }} src={"/logo/epitech.png"} />
           <img style={{ width: 100, height: 100 }} src={"/logo/sfsu.png"} />
+          <img
+            style={{ width: 120, height: 100 }}
+            src={"/logo/carrefour.png"}
+          />
+          <img style={{ width: 180, height: 130 }} src={"/logo/planzone.png"} />
+          <img style={{ width: 200, height: 70 }} src={"/logo/augeo.png"} />
         </div>
       </div>
     </div>

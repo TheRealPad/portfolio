@@ -1,20 +1,19 @@
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 
 import { Header } from "@common/header";
-import styles from "./styles.module.scss";
+import { HomeButton } from "@common/homeButton";
 import { Description } from "./description";
 import { Timeline } from "./timeline";
+import styles from "./styles.module.scss";
 
 function Me() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
 
   return (
     <div className={styles.me}>
       <Header title={t("home.header.titleMe")} />
       <div className={styles.content}>
-        <button onClick={() => navigate("/")}>Home</button>
+        <HomeButton />
         <Description />
         <Timeline />
       </div>

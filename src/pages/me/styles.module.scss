@@ -10,4 +10,9 @@
   align-items: center;
   justify-content: center;
   padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  & > :first-child {
+    margin-bottom: 1rem;
+  }
 }
