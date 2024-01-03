@@ -44,6 +44,24 @@ const projects: Project[] = [
     github: "https://github.com/orgs/Pad-TodoList/repositories",
   },
   {
+    title: "TodoList - micro services",
+    description: "projects.todolistMicroService",
+    isTeamProject: false,
+    keywords: [
+      "Docker",
+      "Java",
+      "Spring boot",
+      "Node JS",
+      "Mysql",
+      "clean architecture",
+      "JWT token",
+      "API Gateway",
+      "pipeline",
+      "micro services"
+    ],
+    github: "https://gitlab.com/todolist-micro-services",
+  },
+  {
     title: "Handwritten digits",
     description: "projects.handwrittenDigits",
     isTeamProject: false,

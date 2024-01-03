@@ -32,6 +32,7 @@
     "rtype": "School project at Epitech. Game engine in C++ to create the R-TYPE game and to add network functionalities (online game up to 4 players)",
     "area": "School project at Epitech. Creation of a server connected to a database, web and mobile application, all working with docker. The objective is to proprose actions, like receiving an email, and reactions like sending an email or post a tweet and let the user create their own action/reactions",
     "todolist": "Todolist server and client, the objective was to deploy the application and try a new software architecture for the client part",
+    "todolistMicroService": "Todolist server with microservices architecture, the objective was to discover the microservices architecture with an authentication token system and a gateway api so that each part of the api could be an api in its own right and totally independent of the rest of the project.",
     "handwrittenDigits": "Simple server to receive digits image and with a ML algorithm, try to find the digits send. My objective was to make a first ML program.",
     "pokemonCompanion": "Application for Android and Wear OS, to make the communication between 2 devices in native language.",
     "database": "School project at San Francisco State University. The objective was to create a real database system to answer a real question with all the documentation needed in a company (description, use cases, schema). We create a discord bot to access the data.",

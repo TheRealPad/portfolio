@@ -5,7 +5,7 @@
       "titleMe": "Moi",
       "titleProject": "Projets"
     },
-    "description": "Étudiant en informatique à Epitech Paris et San Francisco State University, passionné par le development web, mobile/natif, le devOps et les systèmes de base de données",
+    "description": "Étudiant en informatique à Epitech Paris et San Francisco State University, passionné par le dévelopment web, mobile/natif, le devOps et les systèmes de base de données",
     "resume": {
       "french": "CV français",
       "american": "CV américain"
@@ -32,6 +32,7 @@
     "rtype": "Projet d'école à Epitech. Moteur de jeu en C++ pour créer le jeu R-TYPE et ajouter des fonctionnalités réseau (jeu en ligne jusqu'à 4 joueurs)",
     "area": "Projet scolaire à Epitech. Création d'un serveur connecté à une base de données, d'une application web et mobile, le tout fonctionnant avec docker. L'objectif est de proposer des actions, comme la réception d'un email, et des réactions comme l'envoi d'un email ou la publication d'un tweet et de permettre à l'utilisateur de créer ses propres actions/réactions.",
     "todolist": "Todolist serveur et client, l'objectif était de déployer l'application et d'essayer une nouvelle architecture logicielle pour la partie client.",
+    "todolistMicroService": "Todolist serveur avec une architecture micro services, l'objectif était de découvrir l'architecture micro services avec un system de token d'authentification et une api gateway afin que chaques parties de l'api puisse être une api à part enière et totalement indépendante du reste du projet.",
     "handwrittenDigits": "Serveur pour recevoir une image de chiffre écrit à la main et avec un algorithme ML, essayer de trouver les chiffres envoyés. Mon objectif était de faire un premier programme Machine learning.",
     "pokemonCompanion": "Application pour Android et Wear OS, pour permettre la communication entre 2 appareils en language natif.",
     "database": "Projet scolaire à San Francisco State University. L'objectif était de créer un système de base de données réel pour répondre à une problématique avec toute la documentation nécessaire, comme dans une entreprise (description, use cases, schéma). J'ai créé un bot discord pour accéder aux données.",
