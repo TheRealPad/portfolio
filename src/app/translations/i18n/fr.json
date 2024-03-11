@@ -36,7 +36,10 @@
     "handwrittenDigits": "Serveur pour recevoir une image de chiffre écrit à la main et avec un algorithme ML, essayer de trouver les chiffres envoyés. Mon objectif était de faire un premier programme Machine learning.",
     "pokemonCompanion": "Application pour Android et Wear OS, pour permettre la communication entre 2 appareils en language natif.",
     "database": "Projet scolaire à San Francisco State University. L'objectif était de créer un système de base de données réel pour répondre à une problématique avec toute la documentation nécessaire, comme dans une entreprise (description, use cases, schéma). J'ai créé un bot discord pour accéder aux données.",
-    "softwareEngineering": "Projet scolaire à San Francisco State University. L'objectif était de créer une véritable application web avec un serveur connecté à une base de données et un client, de déployer le tout, le résultat final ne devant pas être sur localhost. L'application gère toutes les alertes en Californie pour le Covid, les feux de forêt, la criminalité et la météo et envoie des alertes aux utilisateurs dans les différents comtés."
+    "softwareEngineering": "Projet scolaire à San Francisco State University. L'objectif était de créer une véritable application web avec un serveur connecté à une base de données et un client, de déployer le tout, le résultat final ne devant pas être sur localhost. L'application gère toutes les alertes en Californie pour le Covid, les feux de forêt, la criminalité et la météo et envoie des alertes aux utilisateurs dans les différents comtés.",
+    "calculator": "Projet personnel où j'ai créé une calculatrice qui prend une entrée utilisateur dans le terminal, qui peut être de la forme: ((10 + 20) * 5) et pourra gérer la priorité entre les opérateurs et les parenthèses.",
+    "creditCardValidator": "Projet personnel où j'ai implémenté l'algorithme de Luhn afin de valider ou non les numéros de carte de crédit.",
+    "rustApiTemplate": "Projet personnel où j'ai découvert le Rust et fais un template d'API CRUD."
   },
   "common": {
     "home": "maison"

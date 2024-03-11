@@ -36,7 +36,10 @@
     "handwrittenDigits": "Simple server to receive digits image and with a ML algorithm, try to find the digits send. My objective was to make a first ML program.",
     "pokemonCompanion": "Application for Android and Wear OS, to make the communication between 2 devices in native language.",
     "database": "School project at San Francisco State University. The objective was to create a real database system to answer a real question with all the documentation needed in a company (description, use cases, schema). We create a discord bot to access the data.",
-    "softwareEngineering": "School project at San Francisco State University. The objective was to create a real web application with a server connected to a database and a client, deploy everything, the final result cannot be on localhost. The application handle all alerts in California for Covid, wild fire, crime and meteo and send alerts to the users in the different counties."
+    "softwareEngineering": "School project at San Francisco State University. The objective was to create a real web application with a server connected to a database and a client, deploy everything, the final result cannot be on localhost. The application handle all alerts in California for Covid, wild fire, crime and meteo and send alerts to the users in the different counties.",
+    "calculator": "Personal project where I created a calculator that takes a user input in the terminal, which can be of the form: ((10 + 20) * 5) and will be able to manage the priority between operators and parentheses.",
+    "creditCardValidator": "Personal project where I implemented Luhn's algorithm to validate or invalidate credit card numbers.",
+    "rustApiTemplate": "Personal project where I discovered Rust and made a CRUD API template."
   },
   "common": {
     "home": "home"

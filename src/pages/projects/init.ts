@@ -107,6 +107,45 @@ const projects: Project[] = [
     ],
     github: "soon",
   },
+  {
+    title: "C++ Calculator",
+    description: "projects.calculator",
+    isTeamProject: false,
+    keywords: [
+      "C++",
+      "Object Oriented Programming",
+      "CMake",
+      "Priorities",
+    ],
+    github: "https://github.com/TheRealPad/calculator",
+  },
+  {
+    title: "Credit card validator",
+    description: "projects.creditCardValidator",
+    isTeamProject: false,
+    keywords: [
+      "C++",
+      "Object Oriented Programming",
+      "CMake",
+      "Luhn algorithm",
+      "Bitwise operator"
+    ],
+    github: "https://github.com/TheRealPad/creditCardValidator",
+  },
+  {
+    title: "Rust API template",
+    description: "projects.rustApiTemplate",
+    isTeamProject: false,
+    keywords: [
+      "Rust",
+      "Api",
+      "Template",
+      "Docker",
+      "Unit test",
+      "Integration test"
+    ],
+    github: "https://github.com/TheRealPad/rust-api-crud-template",
+  },
 ];
 
 export { projects };

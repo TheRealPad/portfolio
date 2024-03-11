@@ -27,7 +27,7 @@ function Project(props: Props) {
         </a>
       )}
       {props.project.github && (
-        <a href={props.project.github} target="_blank">
+        <a className={styles.link} href={props.project.github} target="_blank">
           github
         </a>
       )}
