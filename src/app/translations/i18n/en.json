@@ -39,7 +39,8 @@
     "softwareEngineering": "School project at San Francisco State University. The objective was to create a real web application with a server connected to a database and a client, deploy everything, the final result cannot be on localhost. The application handle all alerts in California for Covid, wild fire, crime and meteo and send alerts to the users in the different counties.",
     "calculator": "Personal project where I created a calculator that takes a user input in the terminal, which can be of the form: ((10 + 20) * 5) and will be able to manage the priority between operators and parentheses.",
     "creditCardValidator": "Personal project where I implemented Luhn's algorithm to validate or invalidate credit card numbers.",
-    "rustApiTemplate": "Personal project where I discovered Rust and made a CRUD API template."
+    "rustApiTemplate": "Personal project where I discovered Rust and made a CRUD API template.",
+    "golangApiGenerator": "Personal project where I create a Golang API that is init from a json configuration file for data models, routes and database system"
   },
   "common": {
     "home": "home"

@@ -4,5 +4,14 @@
   flex-direction: column;
   max-width: 5rem;
   font-size: 0.8rem;
-  padding-right: 1rem;
+  background-color: var(--color-white);
+  opacity: 0.5;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.link {
+  color: var(--color-black);
+  font-weight: bolder;
+  font-size: 1rem;
 }

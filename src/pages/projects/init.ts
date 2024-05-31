@@ -57,7 +57,7 @@ const projects: Project[] = [
       "JWT token",
       "API Gateway",
       "pipeline",
-      "micro services"
+      "micro services",
     ],
     github: "https://gitlab.com/todolist-micro-services",
   },
@@ -111,12 +111,7 @@ const projects: Project[] = [
     title: "C++ Calculator",
     description: "projects.calculator",
     isTeamProject: false,
-    keywords: [
-      "C++",
-      "Object Oriented Programming",
-      "CMake",
-      "Priorities",
-    ],
+    keywords: ["C++", "Object Oriented Programming", "CMake", "Priorities"],
     github: "https://github.com/TheRealPad/calculator",
   },
   {
@@ -128,7 +123,7 @@ const projects: Project[] = [
       "Object Oriented Programming",
       "CMake",
       "Luhn algorithm",
-      "Bitwise operator"
+      "Bitwise operator",
     ],
     github: "https://github.com/TheRealPad/creditCardValidator",
   },
@@ -142,9 +137,25 @@ const projects: Project[] = [
       "Template",
       "Docker",
       "Unit test",
-      "Integration test"
+      "Integration test",
     ],
     github: "https://github.com/TheRealPad/rust-api-crud-template",
+  },
+  {
+    title: "Golang API generator",
+    description: "projects.rustApiTemplate",
+    isTeamProject: false,
+    keywords: [
+      "Golang",
+      "Api",
+      "Template",
+      "Docker",
+      "Unit test",
+      "Integration test",
+      "MongoDB",
+      "Object Oriented Programming",
+    ],
+    github: "https://github.com/TheRealPad/golangApiTemplate",
   },
 ];
 

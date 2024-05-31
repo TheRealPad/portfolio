@@ -7,13 +7,15 @@ function Resumes() {
   return (
     <div className={styles.resumes}>
       <a
-        href={"/resume/americanResume.pdf"}
+        className={styles.link}
+        href={"/resume/frenchResume.pdf"}
         download="resumePierreAlexandreDelgadoArevalo"
         target="_blank"
       >
         {t("home.resume.american")}
       </a>
       <a
+        className={styles.link}
         href={"/resume/frenchResume.pdf"}
         download="cvPierreAlexandreDelgadoArevalo"
         target="_blank"
