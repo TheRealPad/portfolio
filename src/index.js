@@ -3,12 +3,14 @@ import ReactDOM from "react-dom/client";
 
 import reportWebVitals from "./reportWebVitals";
 import { Home } from "./client/pages/home";
+import { Router } from "./client/app/router";
 import "./index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Home />
+    {/*<Home />*/}
+    <Router />
   </React.StrictMode>
 );
 
