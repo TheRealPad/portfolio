@@ -11,18 +11,22 @@
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "customize-cra": "^1.0.0",
     "react": "^19.0.0",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.83.1",
     "typescript": "^5.7.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "NODE_ENV=production react-app-rewired start",
+    "dev": "NODE_ENV=development react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
