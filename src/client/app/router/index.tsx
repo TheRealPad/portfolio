@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "@pages/home";
+import { Personal } from "@pages/personal";
 
 function Router() {
   return (
@@ -25,6 +26,7 @@ function Router() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Home />} />
+          <Route path="/portfolio/me" element={<Personal />} />
         </Routes>
 
         {/*<footer>*/}
