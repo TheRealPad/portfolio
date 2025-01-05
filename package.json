@@ -35,12 +35,17 @@
     "build": "cross-env NODE_ENV=production react-app-rewired build --config-overrides ./config/client/config-overrides.prod.js",
     "test": "cross-env NODE_ENV=test react-app-rewired test --config-overrides ./config/client/config-overrides.dev.js",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "prepare": "husky"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
     ]
   },
   "browserslist": {
