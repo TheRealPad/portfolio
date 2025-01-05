@@ -2,14 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import reportWebVitals from "./reportWebVitals";
-import { Home } from "./client/pages/home";
 import { Router } from "./client/app/router";
 import "./index.scss";
+import "@app/translations";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/*<Home />*/}
     <Router />
   </React.StrictMode>
 );
