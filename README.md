@@ -13,3 +13,14 @@ This is Pierre-Alexandre Delgado Porfolio, Fullstack developer at Sopra Steria, 
 - ajouter husky pour prettier
 - class name different pour la prod
 - pipeline pour déployer et tester
+
+
+## dans le portfolio
+
+- classement leetcode
+- forme pour me contacter (mes mails)
+- télécharger mon cv
+- tous mes liens (leetcode, github, gitlab, linkedin)
+- timeline études et travail
+- description de moi meme
+- presentation de mes projets

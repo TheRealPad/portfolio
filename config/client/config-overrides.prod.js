@@ -14,7 +14,7 @@ module.exports = override(
         loader: "css-loader",
         options: {
           modules: {
-            localIdentName: "[local]__[hash:base64:5]", // Custom class names
+            localIdentName: "[hash:base64:8]",
           },
         },
       },
@@ -23,9 +23,9 @@ module.exports = override(
   }),
 
   addWebpackAlias({
-    "@components": path.resolve(__dirname, "src/client/components"),
-    "@pages": path.resolve(__dirname, "src/client/pages"),
-    "@app": path.resolve(__dirname, "src/client/app"),
-    "@common": path.resolve(__dirname, "src/client/common"),
+    "@components": path.resolve(__dirname, "../../src/client/components"),
+    "@pages": path.resolve(__dirname, "../../src/client/pages"),
+    "@app": path.resolve(__dirname, "../../src/client/app"),
+    "@common": path.resolve(__dirname, "../../src/client/common"),
   })
 );
