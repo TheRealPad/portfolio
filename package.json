@@ -13,8 +13,10 @@
     "@types/react-dom": "^19.0.2",
     "cross-env": "^7.0.3",
     "customize-cra": "^1.0.0",
+    "husky": "^9.1.7",
     "i18next": "^22.4.11",
     "i18next-browser-languagedetector": "^7.0.1",
+    "lint-staged": "^15.3.0",
     "react": "^19.0.0",
     "react-app-rewired": "^2.2.1",
     "react-dom": "^19.0.0",
@@ -32,7 +34,8 @@
     "dev": "cross-env NODE_ENV=development react-app-rewired start --config-overrides ./config/client/config-overrides.dev.js",
     "build": "cross-env NODE_ENV=production react-app-rewired build --config-overrides ./config/client/config-overrides.prod.js",
     "test": "cross-env NODE_ENV=test react-app-rewired test --config-overrides ./config/client/config-overrides.dev.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "eslintConfig": {
     "extends": [
@@ -57,7 +60,16 @@
     "@types/moment": "^2.13.0",
     "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^6.3.0",
+    "prettier": "^3.4.2",
     "sass-loader": "^16.0.4",
     "webpack": "^5.97.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
   }
 }
