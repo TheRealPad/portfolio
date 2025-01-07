@@ -8,13 +8,6 @@ This is Pierre-Alexandre Delgado Porfolio, Fullstack developer at Sopra Steria, 
 - [delgadopierrealexandre@mail.com](mailto:delgadopierrealexandre@mail.com)
 
 
-- déplacer les fichiers
-- architecture portfolio
-- ajouter husky pour prettier
-- class name different pour la prod
-- pipeline pour déployer et tester
-
-
 ## dans le portfolio
 
 - classement leetcode
