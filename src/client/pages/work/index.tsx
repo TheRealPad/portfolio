@@ -8,6 +8,7 @@ function Work(props: Props) {
   return (
     <div className={styles.work}>
       <h1>Work page</h1>
+      <p>jobs</p>
       <Link to={"/portfolio"}>Home</Link>
     </div>
   );

@@ -8,6 +8,7 @@ function Contact(props: Props) {
   return (
     <div className={styles.contact}>
       <h1>Contact page</h1>
+      <p>form pour me contacter, mes reseaux</p>
       <Link to={"/portfolio"}>Home</Link>
     </div>
   );

@@ -8,6 +8,7 @@ function Experience(props: Props) {
   return (
     <div className={styles.experience}>
       <h1>Experience page</h1>
+      <p>projets perso et autres</p>
       <Link to={"/portfolio"}>Home</Link>
     </div>
   );

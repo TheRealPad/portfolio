@@ -8,6 +8,7 @@ function Expertise(props: Props) {
   return (
     <div className={styles.expertise}>
       <h1>Expertise page</h1>
+      <p>écoles et autres formations</p>
       <Link to={"/portfolio"}>Home</Link>
     </div>
   );
