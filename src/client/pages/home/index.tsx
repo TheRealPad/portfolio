@@ -10,6 +10,7 @@ function Home(props: Props) {
     <div className={styles.home}>
       <h1>Pierre-Alexandre Delgado</h1>
       <h2>Software engineer, Front end, Back end, Mobile, DevOps</h2>
+      <h2>Download resume</h2>
     </div>
   );
 }

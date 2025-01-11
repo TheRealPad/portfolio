@@ -1,4 +1,11 @@
 {
   "welcome": "Bienvenue dans l'application",
-  "description": "Ceci est un exemple d'i18n"
+  "description": "Ceci est un exemple d'i18n",
+  "header": {
+    "home": "acceuil",
+    "contact": "contact",
+    "work": "emplois",
+    "experience": "expériences",
+    "expertise": "expertises"
+  }
 }
