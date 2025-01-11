@@ -5,11 +5,14 @@ import reportWebVitals from "./reportWebVitals";
 import { Router } from "@app/router";
 import "@app/translations";
 import "./index.scss";
+import { ThemeProvider } from "@app/theme";
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
   <React.StrictMode>
-    <Router />
+    <ThemeProvider>
+      <Router />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
