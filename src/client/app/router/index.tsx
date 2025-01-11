@@ -1,32 +1,25 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { Header } from "@components/header";
 import { Home } from "@pages/home";
-import { Personal } from "@pages/personal";
+import { Work } from "@pages/work";
+import { Contact } from "@pages/contact";
+import { Experience } from "@pages/experience";
+import { Expertise } from "@pages/expertise";
 
 function Router() {
   return (
     <BrowserRouter>
       <div>
-        {/* Common Components (like a Header) */}
-        {/*<header>*/}
-        {/*  <nav>*/}
-        {/*    <ul>*/}
-        {/*      <li>*/}
-        {/*        <a href="/">Home</a>*/}
-        {/*      </li>*/}
-        {/*      <li>*/}
-        {/*        <a href="/about">About</a>*/}
-        {/*      </li>*/}
-        {/*      <li>*/}
-        {/*        <a href="/contact">Contact</a>*/}
-        {/*      </li>*/}
-        {/*    </ul>*/}
-        {/*  </nav>*/}
-        {/*</header>*/}
+        <Header />
 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Home />} />
-          <Route path="/portfolio/me" element={<Personal />} />
+          <Route path="/portfolio/contact" element={<Contact />} />
+          <Route path="/portfolio/work" element={<Work />} />
+          <Route path="/portfolio/experience" element={<Experience />} />
+          <Route path="/portfolio/expertise" element={<Expertise />} />
         </Routes>
 
         {/*<footer>*/}

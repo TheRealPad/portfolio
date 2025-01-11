@@ -3,7 +3,7 @@
   --text-color: #000000;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --background-color: #000000;
   --text-color: #ffffff;
 }
@@ -17,7 +17,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 code {

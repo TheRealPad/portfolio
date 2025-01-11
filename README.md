@@ -13,7 +13,7 @@ This is Pierre-Alexandre Delgado Porfolio, Fullstack developer at Sopra Steria, 
 - classement leetcode
 - forme pour me contacter (mes mails)
 - télécharger mon cv
-- tous mes liens (leetcode, github, gitlab, linkedin)
+- tous mes liens (leetcode, github, gitlab, linkedin) faire menu déroulant en haut à gauche
 - timeline études et travail
 - description de moi meme
 - presentation de mes projets

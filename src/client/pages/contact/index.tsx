@@ -1,16 +1,16 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 import { Props } from "./types";
 import styles from "./styles.scss";
-import { Link } from "react-router-dom";
 
-function Personal(props: Props) {
+function Contact(props: Props) {
   return (
-    <div className={styles.personal}>
-      <h1>This is me</h1>
+    <div className={styles.contact}>
+      <h1>Contact page</h1>
       <Link to={"/portfolio"}>Home</Link>
     </div>
   );
 }
 
-export { Personal };
+export { Contact };
