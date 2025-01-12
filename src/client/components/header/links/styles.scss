@@ -1,0 +1,40 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    .underline {
+      display: block;
+      animation: grow 0.5s ease forwards;
+    }
+  }
+}
+
+.text {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.underline {
+  position: absolute;
+  top: 100%;
+  height: 4px;
+  width: 100%;
+  background-color: red;
+  display: none;
+  transition: display 0s;
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

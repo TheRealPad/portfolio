@@ -6,11 +6,12 @@ import { Work } from "@pages/work";
 import { Contact } from "@pages/contact";
 import { Experience } from "@pages/experience";
 import { Expertise } from "@pages/expertise";
+import styles from "./styles.scss";
 
 function Router() {
   return (
     <BrowserRouter>
-      <div>
+      <div className={styles.app}>
         <Header />
 
         <Routes>
