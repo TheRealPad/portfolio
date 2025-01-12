@@ -1,0 +1,19 @@
+.accounts {
+
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: var(--text-color);
+}

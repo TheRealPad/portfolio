@@ -1,6 +1,6 @@
 import { Props } from "./types";
 
-function DownloadDocument(props: Props) {
+function DownloadDocumentIcon(props: Props) {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -40,4 +40,4 @@ function DownloadDocument(props: Props) {
   );
 }
 
-export { DownloadDocument };
+export { DownloadDocumentIcon };
