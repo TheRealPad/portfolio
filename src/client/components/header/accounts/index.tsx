@@ -38,7 +38,7 @@ function Accounts(props: Props) {
         {() => ({
           input: (
             <div>
-              <h1>TheRealPad</h1>
+              <h1>Pierre-Alexandre Delgado</h1>
             </div>
           ),
           list: (

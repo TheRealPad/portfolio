@@ -2,18 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   text-align: center;
   height: 100%;
 }
 
-.download {
-  display: inline-flex;
+.head {
+  height: 50%;
+  width: 100%;
+  display: flex;
   align-items: center;
-}
-
-.icon {
-  height: 5rem;
-  width: 5rem;
-  fill: none;
+  justify-content: center;
 }
