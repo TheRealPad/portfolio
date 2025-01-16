@@ -1,2 +1,57 @@
 .themeToggle {
+  width: 5rem;
+  height: 2rem;
+  background-color: #ccc;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+
+  & .moonIcon {
+    visibility: hidden;
+  }
+}
+
+.ball {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--primary);
+  border-radius: 100px;
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  background-color: var(--text-color);
+
+  & .moonIcon {
+    visibility: visible;
+  }
+
+  & .sunIcon {
+    visibility: hidden;
+  }
+
+  & .ball {
+    transform: translateX(calc(5rem - 2rem - 0.25rem));
+  }
+}
+
+.moonIcon {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #cccccc;
+}
+
+.sunIcon {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
 }

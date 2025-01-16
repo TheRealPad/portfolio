@@ -8,4 +8,8 @@ function updateLanguage(language: Language) {
   localStorage.setItem(storageName, language);
 }
 
-export { updateLanguage };
+function getLanguage(): Language {
+  return localStorage.getItem(storageName) as Language;
+}
+
+export { updateLanguage, getLanguage };
