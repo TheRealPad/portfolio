@@ -1,6 +1,6 @@
 import { Props } from "./types";
 
-function FrenchFlag({ className }: Props) {
+function FrenchFlagIcon({ className }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -30,4 +30,4 @@ function FrenchFlag({ className }: Props) {
   );
 }
 
-export { FrenchFlag };
+export { FrenchFlagIcon };

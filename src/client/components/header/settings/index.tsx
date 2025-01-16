@@ -4,8 +4,8 @@ import classNames from "classnames";
 import { getLanguage, updateLanguage } from "@app/translations/utils";
 import { Language } from "@app/translations/languages";
 import { ThemeToggle } from "@components/themeToggle";
-import { FrenchFlag } from "@common/icons/frenchFlag";
-import { UsaFlag } from "@common/icons/usaFlag";
+import { FrenchFlagIcon } from "client/common/icons/frenchFlagIcon";
+import { UsaFlagIcon } from "client/common/icons/usaFlagIcon";
 import { Props } from "./types";
 import styles from "./styles.scss";
 
@@ -27,7 +27,7 @@ function Settings(props: Props) {
           })}
           onClick={() => changeLanguage(Language.FR)}
         >
-          <FrenchFlag className={styles.flag} />
+          <FrenchFlagIcon className={styles.flag} />
         </div>
         <div
           className={classNames(styles.button, {
@@ -35,7 +35,7 @@ function Settings(props: Props) {
           })}
           onClick={() => changeLanguage(Language.EN)}
         >
-          <UsaFlag className={styles.flag} />
+          <UsaFlagIcon className={styles.flag} />
         </div>
       </div>
     </div>

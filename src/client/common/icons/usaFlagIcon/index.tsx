@@ -1,6 +1,6 @@
 import { Props } from "./types";
 
-function UsaFlag({ className }: Props) {
+function UsaFlagIcon({ className }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -34,4 +34,4 @@ function UsaFlag({ className }: Props) {
   );
 }
 
-export { UsaFlag };
+export { UsaFlagIcon };

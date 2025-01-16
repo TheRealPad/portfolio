@@ -1,11 +1,12 @@
 {
   "welcome": "Welcome to the app",
   "description": "This is an i18n example",
-  "header": {
-    "home": "home",
-    "contact": "contact",
-    "work": "work",
-    "experience": "experience",
-    "expertise": "expertise"
+  "home": {
+    "redirections": {
+      "contact": "contact",
+      "work": "work",
+      "experience": "experience",
+      "expertise": "expertise"
+    }
   }
 }

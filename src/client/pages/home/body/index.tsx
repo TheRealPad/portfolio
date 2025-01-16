@@ -1,12 +1,14 @@
 import { useNavigate } from "react-router-dom";
-import { useTranslation } from "react-i18next";
 
+import { ExpertiseButton } from "./expertiseButton";
+import { WorkButton } from "./workButton";
+import { ExperienceButton } from "./experienceButton";
+import { ContactButton } from "./contactButton";
 import { Props } from "./types";
 import styles from "./styles.scss";
 
 function Body(props: Props) {
   const navigate = useNavigate();
-  const { t } = useTranslation();
 
   return (
     <div className={styles.body}>
@@ -15,7 +17,7 @@ function Body(props: Props) {
           className={styles.container}
           onClick={() => navigate("/portfolio/expertise")}
         >
-          <p>{t("header.expertise")}</p>
+          <ExpertiseButton />
         </div>
       </div>
       <div className={styles.right}>
@@ -24,13 +26,13 @@ function Body(props: Props) {
             className={styles.container}
             onClick={() => navigate("/portfolio/work")}
           >
-            <p>{t("header.work")}</p>
+            <WorkButton />
           </div>
           <div
             className={styles.container}
             onClick={() => navigate("/portfolio/experience")}
           >
-            <p>{t("header.experience")}</p>
+            <ExperienceButton />
           </div>
         </div>
         <div className={styles.bottom}>
@@ -38,7 +40,7 @@ function Body(props: Props) {
             className={styles.container}
             onClick={() => navigate("/portfolio/contact")}
           >
-            <p>{t("header.contact")}</p>
+            <ContactButton />
           </div>
         </div>
       </div>
