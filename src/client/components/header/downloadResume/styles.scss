@@ -1,13 +1,33 @@
 .downloadResume {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 25%;
 }
 
 .download {
+  border: 4px solid var(--secondary);
+  border-radius: 12px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  padding: 0.25rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.title {
+  color: var(--secondary);
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
 }
 
 .icon {
   height: 2rem;
   width: 2rem;
-  fill: none;
+  stroke: var(--secondary);
 }

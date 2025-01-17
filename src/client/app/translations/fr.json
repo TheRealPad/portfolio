@@ -1,6 +1,9 @@
 {
   "welcome": "Bienvenue dans l'application",
   "description": "Ceci est un exemple d'i18n",
+  "header": {
+    "downloadResume": "CV"
+  },
   "home": {
     "redirections": {
       "contact": "contact",

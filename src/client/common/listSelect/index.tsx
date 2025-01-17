@@ -3,7 +3,7 @@ import React from "react";
 import { Props } from "./types";
 import styles from "./styles.scss";
 
-function ListSelect({ children }: Props) {
+function ListSelect({ className, children }: Props) {
   const { input, list } = children({
     input: <div>Default Input</div>,
     list: <div>Default List</div>,
@@ -31,11 +31,11 @@ function ListSelect({ children }: Props) {
   }, []);
 
   return (
-    <div ref={containerRef}>
+    <div ref={containerRef} className={className}>
       <div className={styles.input} onClick={() => setShow(!show)}>
         {input}
+        {show && <div className={styles.list}>{list}</div>}
       </div>
-      {show && <div className={styles.list}>{list}</div>}
     </div>
   );
 }

@@ -1,8 +1,11 @@
 .input {
   position: relative;
-  cursor: pointer;
+  width: 100%;
 }
 
 .list {
   position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
 }

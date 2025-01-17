@@ -37,7 +37,7 @@ function Accounts(props: Props) {
       <ListSelect>
         {() => ({
           input: (
-            <div>
+            <div className={styles.input}>
               <h1>Pierre-Alexandre Delgado</h1>
             </div>
           ),
@@ -46,7 +46,11 @@ function Accounts(props: Props) {
               {accounts.map((account, key) => (
                 <div className={styles.account} key={key}>
                   {account.icon}
-                  <a href={account.link} target="_blank">
+                  <a
+                    className={styles.link}
+                    href={account.link}
+                    target="_blank"
+                  >
                     {account.name}
                   </a>
                 </div>

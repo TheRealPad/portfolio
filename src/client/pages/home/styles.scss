@@ -13,4 +13,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.description {
+  display: inline-flex;
+  gap: 0.3rem;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: var(--text-color);
+  justify-content: center;
+}
+
+.green {
+  color: #34A853;
+}
+
+.red {
+  color: #EA4335;
+}
+
+.yellow {
+  color: #FBBC05;
+}
+
+.blue {
+  color: #4285F4;
 }

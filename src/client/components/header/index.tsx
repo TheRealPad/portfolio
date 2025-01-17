@@ -8,17 +8,19 @@ import styles from "./styles.scss";
 function Header(props: Props) {
   const { width } = useWindowDimensions();
 
-  return width >= 1000 ? (
+  return width >= 768 ? (
     <header className={styles.header}>
-      <DownloadResume />
-      <Accounts />
       <Settings />
+      <Accounts />
+      <DownloadResume />
     </header>
   ) : (
-    <div>
-      <DownloadResume />
+    <div className={styles.mobile}>
+      <div className={styles.top}>
+        <Settings />
+        <DownloadResume />
+      </div>
       <Accounts />
-      <Settings />
     </div>
   );
 }
