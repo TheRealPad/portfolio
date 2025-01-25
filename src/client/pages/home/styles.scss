@@ -17,26 +17,27 @@
 }
 
 .description {
-  display: inline-flex;
-  gap: 0.3rem;
   font-size: 1.6rem;
   font-weight: bolder;
   color: var(--text-color);
-  justify-content: center;
+
+  & > :not(:last-child) {
+    margin-right: 0.3rem;
+  }
 }
 
 .green {
-  color: #34A853;
+  color: #34a853;
 }
 
 .red {
-  color: #EA4335;
+  color: #ea4335;
 }
 
 .yellow {
-  color: #FBBC05;
+  color: #fbbc05;
 }
 
 .blue {
-  color: #4285F4;
+  color: #4285f4;
 }

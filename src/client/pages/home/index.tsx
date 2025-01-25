@@ -11,13 +11,13 @@ function Home(props: Props) {
   return (
     <div className={styles.home}>
       <div className={styles.head}>
-        <div className={styles.description}>
-          <p className={styles.blue}>Software engineer,</p>
-          <p className={styles.green}>Front end,</p>
-          <p className={styles.yellow}>Back end,</p>
-          <p className={styles.red}>Mobile,</p>
-          <p>DevOps</p>
-        </div>
+        <p className={styles.description}>
+          <span className={styles.blue}>Software engineer,</span>
+          <span className={styles.green}>Front end,</span>
+          <span className={styles.yellow}>Back end,</span>
+          <span className={styles.red}>Mobile,</span>
+          <span>DevOps</span>
+        </p>
         {/*<h2>Software engineer, Front end, Back end, Mobile, DevOps</h2>*/}
       </div>
       <Body />

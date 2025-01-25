@@ -38,7 +38,7 @@ function Body(props: Props) {
         <div className={styles.bottom}>
           <div
             className={styles.container}
-            onClick={() => navigate("/portfolio/contact")}
+            // onClick={() => navigate("/portfolio/contact")}
           >
             <ContactButton />
           </div>
