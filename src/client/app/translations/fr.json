@@ -37,5 +37,46 @@
         "paradigms": "<strong>Paradigmes de programmation</strong> – Exploration de différents modèles de programmation, y compris la programmation orientée objet, fonctionnelle et procédurale."
       }
     }
+  },
+  "work": {
+    "back": "Retour",
+    "seasonal": {
+      "title": "Employé commercial",
+      "description": "Gestion des rayons charcuteries, poissonnerie, boulangerie et fruits et légumes du Carrefour Market à Etiolles"
+    },
+    "carrefour": {
+      "title": "Stagiaire Fullstack",
+      "description": "Premier stage en informatique d'une durée de 6 mois au sein de la DSI de Carrefour\n- Création d'une web app en partant de 0 avec jhipster/Angular.\n- Travail au sein d'une équipe de 3 personnes.\n- Objectif de l’application : aider les robots au sein des entrepôts automatisé à placer de la manière la plus optimisée les produits.\n- Réunions régulières.\n- Démonstration de l'application."
+    },
+    "augeoOne": {
+      "title": "Stagiaire Frontend",
+      "description": "- Stage à temps partiel (2 jours par semaine)\n- Utilisation de React ts\n- Intégration Front-end sur un produit progiciel\n- Intégation des fonctionnalités front-end désignées lors des sprints- planning\n- Assurance d'un code coverage supérieur à 80% sur les fonctionnalités réalisées\n- Suivi des principes de « clean architecture »\n- Gestion des tâches"
+    },
+    "augeoTwo": {
+      "title": "Developpeur Fullstack",
+      "description": "- Intégration du service OnlyOffice dans un logiciel SaaS pour permettre aux utilisateurs de mettre à jour leurs documents directement dans notre application + ajout d'une gestion de documents comme dans Google Drive (les utilisateurs peuvent créer, voir, supprimer et mettre à jour leurs documents/dossiers)\n- Intégration d'un système de logs pour les utilisateurs\n- Amélioration de l'UI/UX\n- Mise à jour du service de messagerie\n- architecture propre"
+    },
+    "sopra": {
+      "title": "Stagiaire ingénieur logiciel",
+      "description": "Prochainement"
+    }
+  },
+  "experience": {
+    "back": "Retour",
+    "chatApp": {
+      "description": "Application de chat utilisant un Web socket pour permettre à l'utilisateur d'ajouter des amis et de communiquer avec eux en temps réel."
+    },
+    "todolist": {
+      "description": "Application de gestion des tâches avec une architecture de micro-services et une api gateway pour connecter tous les services."
+    },
+    "blockchain": {
+      "description": "Une application blockchain qui permet aux utilisateurs de créer un NFT d'une carte Pokemon et d'avoir accès à un marché pour gérer leurs cartes."
+    },
+    "apiGenerator": {
+      "description": "Une application qui, à partir d'un fichier json, génère une api CRUD et sauvegarde les données sur MongoDB."
+    },
+    "owl": {
+      "description": "Mon projet EIP, j'ai créé une application pour Wear OS qui récupère la fréquence cardiaque de l'utilisateur, l'envoie à notre api et affiche une alarme si nécessaire. J'ai créé l'application mobile pour gérer les données de la montre."
+    }
   }
 }

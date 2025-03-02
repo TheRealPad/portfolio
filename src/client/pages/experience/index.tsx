@@ -27,8 +27,7 @@ function Experience(props: Props) {
         "Kotlin Spring Boot",
         "MySQL",
       ],
-      description:
-        "Chat application using web socket to let user add friends and communicated with them in real time",
+      description: "experience.chatApp.description",
       link: "https://github.com/TheRealPad/chatApp",
     },
     {
@@ -43,29 +42,25 @@ function Experience(props: Props) {
         "MySQL",
         "Pipeline",
       ],
-      description:
-        "Todo list application with a micro service architecture and a gateway api to connect all services",
+      description: "experience.todolist.description",
       link: "https://gitlab.com/todolist-micro-services",
     },
     {
       title: "Epitech - Blockchain",
       technologies: ["Python", "Flask", "XRP Ledger", "Docker"],
-      description:
-        "Blockchain application that let users to mint an NFT of a Pokemon card and have access to a market place to handle their cards",
+      description: "experience.blockchain.description",
       link: "https://github.com/TheRealPad/bockchain-epitech",
     },
     {
       title: "Golang API generator",
       technologies: ["Golang", "Docker", "MongoDB"],
-      description:
-        "An application that from a json file, generate a CRUD api and save the data on MongoDB",
+      description: "experience.apiGenerator.description",
       link: "https://github.com/TheRealPad/golangApiGenerator",
     },
     {
       title: "OWL",
       technologies: ["Kotlin", "Jetpack compose", "React native", "Redux"],
-      description:
-        "My EIP project, I created an app for Wear OS that get the heart rate of the user, send it to our api and show an alarm if needed. I made the mobile app to to handle the data from the watch",
+      description: "experience.owl.description",
     },
   ];
 
@@ -85,7 +80,7 @@ function Experience(props: Props) {
                 </div>
               ))}
             </div>
-            <p>{project.description}</p>
+            <p>{t(project.description)}</p>
             {project.link && (
               <a
                 className={styles.projectLink}
@@ -101,7 +96,7 @@ function Experience(props: Props) {
       </div>
       <div className={styles.buttonBox}>
         <div className={styles.button} onClick={() => navigate("/portfolio")}>
-          <p>{t("expertise.back")}</p>
+          <p>{t("experience.back")}</p>
         </div>
       </div>
     </div>

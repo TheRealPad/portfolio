@@ -37,5 +37,46 @@
         "paradigms": "<strong>Programming Paradigms</strong> – Explored different programming models, including object-oriented, functional, and procedural programming."
       }
     }
+  },
+  "work": {
+    "back": "Back",
+    "seasonal": {
+      "title": "Commercial employee",
+      "description": "Management of charcuterie, seafood, bakery and fruit and vegetable departments at Carrefour Market in Etiolles"
+    },
+    "carrefour": {
+      "title": "Fullstack intern",
+      "description": "First 6-month IT internship with Carrefour's IT department.\n- Creation of a web app from scratch using jhipster/Angular.\n- Worked in a 3-person team.\n- Application objective: to help robots in automated warehouses to place products in the most optimized way.\n- Regular meetings.\n- Application demonstration."
+    },
+    "augeoOne": {
+      "title": "Frontend intern",
+      "description": "- Part-time internship (2 days a week)\n- Use of React ts\n- Front-end integration on a software product\n- Integration of front-end functionalities designated during planning sprints\n- Ensure code coverage of more than 80% of the functionalities implemented\n- Clean architecture principles\n- Task management"
+    },
+    "augeoTwo": {
+      "title": "Fullstack developer",
+      "description": "- Integration of OnlyOffice service into a SaaS software to let the users update their documents directly into our application + add a document management like in Google Drive (users can create, view, delete and update their documents/folders)\n- Integration of a log system for users\n- UI/UX improvement\n- Update of the email service\n- clean architecture"
+    },
+    "sopra": {
+      "title": "Software engineer intern",
+      "description": "Coming soon"
+    }
+  },
+  "experience": {
+    "back": "Retour",
+    "chatApp": {
+      "description": "Chat application using web socket to let user add friends and communicated with them in real time."
+    },
+    "todolist": {
+      "description": "Todo list application with a micro service architecture and a gateway api to connect all services."
+    },
+    "blockchain": {
+      "description": "Blockchain application that let users to mint an NFT of a Pokemon card and have access to a market place to handle their cards."
+    },
+    "apiGenerator": {
+      "description": "An application that from a json file, generate a CRUD api and save the data on MongoDB."
+    },
+    "owl": {
+      "description": "My EIP project, I created an app for Wear OS that get the heart rate of the user, send it to our api and show an alarm if needed. I made the mobile app to to handle the data from the watch."
+    }
   }
 }
