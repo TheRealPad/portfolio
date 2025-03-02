@@ -55,12 +55,15 @@
   color: rgba(255, 255, 255, 0.5);
   text-shadow: white 10px 10px 1px;
 
+  & > * {
+    margin: 0;
+    padding: 0;
+  }
+
   @media (max-width: 1250px) {
     & > * {
       transform: translateX(0);
       transition: 1s;
-      margin: 0;
-      padding: 0;
     }
 
     &:hover {
