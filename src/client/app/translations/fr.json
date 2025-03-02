@@ -11,5 +11,31 @@
       "experience": "expériences",
       "expertise": "expertises"
     }
+  },
+  "expertise": {
+    "back": "Retour",
+    "epitech": {
+      "title": "Epitech Paris (2020 - 2025)",
+      "subtitle": "Programme grandes écoles (Bachelor + Master)",
+      "paragraphs": {
+        "one": "<strong>La Licence</strong> : Le programme de Licence d'Epitech est conçu pour fournir aux étudiants des bases solides en informatique, en développement de logiciels et en résolution de problèmes innovants. Pendant trois ans, les étudiants s'engagent dans un apprentissage pratique à travers des projets réels, un travail d'équipe collaboratif et une pédagogie innovante qui donne la priorité à l'autonomie et à l'adaptabilité. Le cursus comprend les langages de programmation fondamentaux (tous les paradigmes et modèles), l'administration des systèmes, les bases de données, l'intelligence artificielle et la cybersécurité. Pendant ce programme l'étudiant à l'occasion de réaliser 3 stages en entreprises.",
+        "two": "<strong>Le Master</strong> : Le programme s'appuie sur les solides bases techniques établies dans le cycle Bachelor, préparant les étudiants à des rôles de leadership dans l'industrie technologique. Le programme commence par un échange international dans une université partenaire. Le programme se concentre sur les compétences techniques avancées, la gestion de projet, l'esprit d'entreprise et l'innovation. Les étudiants travaillent sur des projets à long terme tels que l'Epitech Innovative Project (EIP), qui les met au défi de développer et de lancer une solution technologique dans le monde réel. En outre, les étudiants acquièrent une expérience précieuse dans l'industrie grâce à des stages et à des collaborations avec des entreprises technologiques de premier plan. Les diplômés du programme Epitech Master sont des professionnels hautement qualifiés, prêts à conduire le changement technologique et l'innovation dans divers secteurs. L'accent est mis sur l'expérience pratique, l'adaptabilité et l'exposition internationale.",
+        "three": "Les programmes de Licence et de Master d'Epitech permettent aux étudiants d'acquérir les compétences et l'état d'esprit nécessaires pour exceller dans le monde en constante évolution de la technologie."
+      }
+    },
+    "sfsu": {
+      "title": "San Francisco State University (2023 - 2024)",
+      "subtitle": "Échange",
+      "introduction": "Dans le cadre de l'expérience internationale de mon parcours universitaire, j'ai eu l'occasion d'étudier pendant deux semestres à l'université d'État de San Francisco. Pendant cette période, j'ai approfondi mes connaissances dans des domaines clés de l'informatique grâce aux cours suivants :",
+      "conclusion": "Ce programme d'échange a enrichi ma perspective technique et culturelle, me permettant de découvrir un environnement académique diversifié tout en améliorant mes compétences en matière de résolution de problèmes et d'adaptabilité.",
+      "classes": {
+        "ethic": "<strong>L'éthique dans l'informatique</strong> – Exploration des implications éthiques de la technologie, y compris la vie privée, la sécurité et les droits numériques.",
+        "analysis": "<strong>Analyse des algorithmes</strong> – Étude de l'efficacité, de la complexité et des techniques d'optimisation des algorithmes.",
+        "database": "<strong>Introduction aux systèmes de bases de données</strong> – Apprentissage de la conception de bases de données, du langage SQL et des principes de gestion des données.",
+        "software": "<strong>Software Engineering</strong> – Acquisition de connaissances sur les méthodologies de développement de logiciels, la collaboration au sein d'une équipe et les meilleures pratiques.",
+        "admin": "<strong>Administration des systèmes</strong> – Acquisition d'une expérience pratique dans la gestion et la configuration des systèmes d'exploitation et des réseaux.",
+        "paradigms": "<strong>Paradigmes de programmation</strong> – Exploration de différents modèles de programmation, y compris la programmation orientée objet, fonctionnelle et procédurale."
+      }
+    }
   }
 }

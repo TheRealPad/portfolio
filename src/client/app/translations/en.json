@@ -11,5 +11,31 @@
       "experience": "experience",
       "expertise": "expertise"
     }
+  },
+  "expertise": {
+    "back": "Back",
+    "epitech": {
+      "title": "Epitech Paris (2020 - 2025)",
+      "subtitle": "Grandes Ecoles program (Bachelor + Master)",
+      "paragraphs": {
+        "one": "<strong>Bachelor Program</strong> : Epitech's Bachelor program is designed to provide students with a solid foundation in computer science, software development, and innovative problem-solving. Over the course of three years, students engage in hands-on learning through real-world projects, collaborative teamwork, and an innovative pedagogy that prioritizes autonomy and adaptability. The curriculum includes fundamental programming languages (all paradigms and patterns), system administration, databases, artificial intelligence, and cybersecurity. During this program, students have the opportunity to complete 3 internships.",
+        "two": "<strong>Master program</strong> : builds upon the strong technical foundation established in the Bachelor cycle, preparing students for leadership roles in the tech industry. The program start an international exchange in a partner university. The program focuses on advanced technical skills, project management, entrepreneurship, and innovation. Students work on long-term projects such as the Epitech Innovative Project (EIP), which challenges them to develop and launch a real-world tech solution. Additionally, students gain valuable industry experience through internships and collaborations with leading tech companies. Graduates of the Epitech Master program emerge as highly skilled professionals, ready to drive technological change and innovation in various sectors. With a strong emphasis on practical experience, adaptability, and international exposure.",
+        "three": "Epitech's Bachelor and Master programs equip students with the skills and mindset needed to excel in the ever-evolving world of technology."
+      }
+    },
+    "sfsu": {
+      "title": "San Francisco State University (2023 - 2024)",
+      "subtitle": "Exchange",
+      "introduction": "As part of the international experience in my academic journey, I had the opportunity to study for two semesters at San Francisco State University. During this time, I expanded my knowledge in key areas of computer science through the following courses :",
+      "conclusion": "This exchange program enriched my technical and cultural perspective, allowing me to experience a diverse academic environment while enhancing my problem-solving and adaptability skills.",
+      "classes": {
+        "ethic": "<strong>Ethics in Computer Science</strong> – Explored the ethical implications of technology, including privacy, security, and digital rights.",
+        "analysis": "<strong>Algorithm Analysis</strong> – Studied algorithm efficiency, complexity, and optimization techniques.",
+        "database": "<strong>Introduction to Database Systems</strong> – Learned about database design, SQL, and data management principles.",
+        "software": "<strong>Software Engineering</strong> – Gained insights into software development methodologies, team collaboration, and best practices.",
+        "admin": "<strong>System Administration</strong> – Acquired hands-on experience in managing and configuring operating systems and networks.",
+        "paradigms": "<strong>Programming Paradigms</strong> – Explored different programming models, including object-oriented, functional, and procedural programming."
+      }
+    }
   }
 }
