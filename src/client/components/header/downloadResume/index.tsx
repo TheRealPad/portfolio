@@ -9,7 +9,7 @@ function DownloadResume(props: Props) {
 
   return (
     <div className={styles.downloadResume}>
-      <a href={"/resume.pdf"} download className={styles.download}>
+      <a href={"/portfolio/resume.pdf"} download className={styles.download}>
         <DownloadDocumentIcon className={styles.icon} />
         <p className={styles.title}>{t("header.downloadResume")}</p>
       </a>
